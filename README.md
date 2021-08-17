@@ -8,7 +8,7 @@ WordPress actions let you append your own functionality at a specific process
 WordPress filters allow you to change and modify data as it is processed
 
 #### THE ANALOGY
-Mike is making a burger, and he offers to add/modify the layers as you wish.
+[Mike](https://github.com/kipmyk) is making a burger, and he offers to add/modify the layers as you wish.
 
 THE BREAKDOWN
 <p>&nbsp;<img align="center" src="https://github.com/kipmyk/filters/blob/main/assets/analogy.png" alt="Anology of Actions and Filters" /></p>
@@ -44,7 +44,7 @@ Notes: the number 1 & 2 stand for priority, if you wanted coriander to appear ab
 
 WordPress Hook: Filter
 
-Nathan comes, Hi [Mike](), I don’t want lettuce on my burger, please use pickles instead
+Nathan comes, Hi [Mike](https://github.com/kipmyk), I don’t want lettuce on my burger, please use pickles instead
 
 add_filter('vegetable_filter', 'change_vegetable_filter' );
 function change_vegetable_filter( $default ){
@@ -85,4 +85,8 @@ This is an example of how to add fields to WC attributes.
 This is an example of how to change fields dynamically on role selection change
 ACF role-based conditions on user new / edit forms
 
+##### 6. [acf-update-all-ACF-post-fields.php](https://github.com/kipmyk/filters/blob/main/acf-update-all-ACF-post-fields.php)
+This is an example of how to update All ACF Post Fields. You can call this function by hooking into `init`.
+`add_action( 'init', 'mass_update_posts' );`
 
+You can add the action and function, load the website once, and then comment it out so it doesn't load again.
