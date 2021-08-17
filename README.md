@@ -20,22 +20,31 @@ WordPress Hook: Action
 
 [Mike](https://github.com/kipmyk), Please add pickles before lettuce
 
-`add_action('before_vegetable', 'my_custom_layer_before_vegetable');
-function  my_custom_layer_before_vegetable(){
-      echo 'I am the pickles layer';
-}`
+`add_action('before_vegetable', 'my_custom_layer_before_vegetable');`
+
+`function  my_custom_layer_before_vegetable(){`
+      
+      `echo 'I am the pickles layer';`
+
+`}`
 
 Then you can add pickles and coriander before lettuce
 
-`add_action('before_vegetable', 'pickles_layer_before_vegetable', 1);
-function  pickles_layer_before_vegetable(){ 
-      echo 'I am the pickles layer';
-}`
+`add_action('before_vegetable', 'pickles_layer_before_vegetable', 1);`
 
-`add_action('before_vegetable', 'coriander_layer_before_vegetable', 2);
-function  coriander_layer_before_vegetable(){ 
-      echo 'I am the coriander layer';
-}`
+`function  pickles_layer_before_vegetable(){ `
+      
+      `echo 'I am the pickles layer';`
+
+`}`
+
+`add_action('before_vegetable', 'coriander_layer_before_vegetable', 2);`
+
+`function  coriander_layer_before_vegetable(){` 
+      
+      `echo 'I am the coriander layer';`
+
+`}`
 
 Notes: the number 1 & 2 stand for priority, if you wanted coriander to appear above pickles then you just need to switch the priority.
 
@@ -43,18 +52,23 @@ WordPress Hook: Filter
 
 Nathan comes, Hi [Mike](https://github.com/kipmyk), I don’t want lettuce on my burger, please use pickles instead
 
-`add_filter('vegetable_filter', 'change_vegetable_filter' );
-function change_vegetable_filter( $default ){
-      return 'I am the pickles layer';
-}`
+`add_filter('vegetable_filter', 'change_vegetable_filter' );`
+
+`function change_vegetable_filter( $default ){`
+      
+      `return 'I am the pickles layer';`
+
+`}`
 
 I want a crispy patty
 
-`add_filter('patty_filter', 'make_it_crispy');
-function make_it_crispy( $meat ){
-      $cooked = deep_fry_task( $meat );
-      return $cooked;
-}`
+`add_filter('patty_filter', 'make_it_crispy');`
+
+`function make_it_crispy( $meat ){`
+
+      `$cooked = deep_fry_task( $meat );`
+      `return $cooked;`
+`}`
 
 
 
