@@ -24,7 +24,7 @@ WordPress Hook: Action
 
 `function  my_custom_layer_before_vegetable(){`
       
-      `echo 'I am the pickles layer';`
+      echo 'I am the pickles layer';
 
 `}`
 
@@ -34,7 +34,7 @@ Then you can add pickles and coriander before lettuce
 
 `function  pickles_layer_before_vegetable(){ `
       
-      `echo 'I am the pickles layer';`
+      echo 'I am the pickles layer';
 
 `}`
 
@@ -42,7 +42,7 @@ Then you can add pickles and coriander before lettuce
 
 `function  coriander_layer_before_vegetable(){` 
       
-      `echo 'I am the coriander layer';`
+      echo 'I am the coriander layer';
 
 `}`
 
@@ -56,7 +56,7 @@ Nathan comes, Hi [Mike](https://github.com/kipmyk), I don’t want lettuce on my
 
 `function change_vegetable_filter( $default ){`
       
-      `return 'I am the pickles layer';`
+      return 'I am the pickles layer';
 
 `}`
 
