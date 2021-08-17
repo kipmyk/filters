@@ -14,4 +14,13 @@ This is an example of how to use the acf image field as user avatar wordpress. P
 ##### 3. [acf-specific-term-location-rule.php](https://github.com/kipmyk/filters/blob/main/acf-specific-term-location-rule.php)
 This is an example of how to create a custom location rule to add fields to specific term. 
 For more info on the same, please [read more here](http://www.advancedcustomfields.com/resources/custom-location-rules/).
-For those looking to do this and other custom rules here is some code for this specific case:
+For those looking to do this and other custom rules here is some code for this specific case.
+
+##### 4. [acf-to-wc-attributes.php](https://github.com/kipmyk/filters/blob/main/acf-to-wc-attributes.php)
+This is an example of how to add fields to WC attributes.
+
+##### 5. [acf-dynamic-change-on-user-creation.php](https://github.com/kipmyk/filters/blob/main/acf-dynamic-change-on-user-creation.php)
+This is an example of how to change fields dynamically on role selection change
+ACF role-based conditions on user new / edit forms
+
+
