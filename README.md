@@ -66,8 +66,9 @@ I want a crispy patty
 
 `function make_it_crispy( $meat ){`
 
-      `$cooked = deep_fry_task( $meat );`
-      `return $cooked;`
+      $cooked = deep_fry_task( $meat );`
+      return $cooked;
+
 `}`
 
 
