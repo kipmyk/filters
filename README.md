@@ -11,7 +11,7 @@ WordPress filters allow you to change and modify data as it is processed
 [Mike](https://github.com/kipmyk) is making a burger, and he offers to add/modify the layers as you wish.
 
 THE BREAKDOWN
-<p>&nbsp;<img align="center" src="https://github.com/kipmyk/filters/blob/main/assets/analogy.png" alt="Anology of Actions and Filters" /></p>
+<p>&nbsp;<img align="center" src="https://github.com/kipmyk/filters/blob/main/assets/analogy.png?raw=true" alt="Anology of Actions and Filters" /></p>
 As we can see do_action function lets you put anything between the layers, and apply filter lets you change what the layer is. Now, lets use the burger analogy with the code:
 
 WordPress Hook: Action
