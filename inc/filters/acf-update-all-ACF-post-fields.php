@@ -23,7 +23,6 @@ You can call this function however you want. Usually it is done by using an acti
 
 `add_action( 'init', 'mass_update_posts' );`
 
-
 This function can run a long time so if you use this method make sure to comment out or remove the function / action after it runs.
 */
 ?>
