@@ -7,6 +7,7 @@
     
     For those looking to do this and other custom rules here is some code for this specific case:
     
+    
   */
 
 // Step 1: Add custom type
