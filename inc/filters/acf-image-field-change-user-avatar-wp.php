@@ -1,6 +1,7 @@
 <?php
 
 //Use the code snippet within your functions.php file
+//image field to avatar
 add_filter('get_avatar_data', 'change_the_avatar', 100);
 function change_the_avatar($args) {
     $img = get_field("profile", "user_".get_current_user_id());
