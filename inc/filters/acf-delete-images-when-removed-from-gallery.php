@@ -1,7 +1,7 @@
 <?php 
 	
 	// when images are removed from the ACF Gallery
-	// This will delete them from media library
+	// This will delete them from media library update
 	
 	add_filter('acf/update_value/type=gallery', 'remove_gallery_images', 10, 3);
 	
