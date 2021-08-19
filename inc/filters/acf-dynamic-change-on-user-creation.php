@@ -5,7 +5,7 @@
 Change default role dynamically on role selection change
 ACF role-based conditions on user new / edit forms
 
-USed within functions.php
+Used within functions.php
 */
 
 add_action( 'acf/input/admin_head', 'acf_dynamic_default_role' );
