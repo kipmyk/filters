@@ -1,6 +1,7 @@
 <?php 
 
 // Adds a custom rule type.
+//acf to wc attributes
 add_filter( 'acf/location/rule_types', function( $choices ){
     $choices[ __("Other",'acf') ]['wc_prod_attr'] = 'WC Product Attribute';
     return $choices;
