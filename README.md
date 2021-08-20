@@ -99,3 +99,6 @@ This is an example of how to update All ACF Post Fields. You can call this funct
 `add_action( 'init', 'mass_update_posts' );`
 
 You can add the action and function, load the website once, and then comment it out so it doesn't load again.
+
+##### 7. [acf_is_admin-acf-location-rule.php](https://github.com/kipmyk/filters/inc/filters/acf_is_admin-acf-location-rule.php)
+This is another custom location rule example. This rule lets you choose a field group to be used only in the in the admin or on a front end form.
