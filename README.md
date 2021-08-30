@@ -79,7 +79,7 @@ I want a crispy patty
 
 This is an example of how to delete images from the media library when they are removed from a gallery field
 
-##### 2. [acf-delete-images-when-removed-from-gallery.php](https://github.com/kipmyk/filters/blob/main/inc/filters/acf-image-field-change-user-avatar-wp.php)
+##### 2. [acf-image-field-change-user-avatar-wp.php](https://github.com/kipmyk/filters/blob/main/inc/filters/acf-image-field-change-user-avatar-wp.php)
 This is an example of how to use the acf image field as user avatar wordpress. Please make use that the return format of the image field is set to url.
 
 ##### 3. [acf-specific-term-location-rule.php](https://github.com/kipmyk/filters/blob/main/inc/filters/acf-specific-term-location-rule.php)
