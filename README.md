@@ -102,3 +102,6 @@ You can add the action and function, load the website once, and then comment it 
 
 ##### 7. [acf_is_admin-acf-location-rule.php](https://github.com/kipmyk/filters/blob/main/inc/filters/acf_is_admin-acf-location-rule.php)
 This is another custom location rule example. This rule lets you choose a field group to be used only in the in the admin or on a front end form.
+
+##### 8. [acf_post_object_field.php](https://github.com/kipmyk/filters/blob/main/inc/filters/acf_post_object_field.php)
+acf/fields/post_object/query filter examples
