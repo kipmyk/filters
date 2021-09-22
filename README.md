@@ -4,7 +4,7 @@ WordPress [actions](https://developer.wordpress.org/plugins/hooks/actions/) and 
 
 #### Action -  
 WordPress actions let you append your own functionality at a specific process
-##### Filter 
+##### Filter
 WordPress filters allow you to change and modify data as it is processed
 
 #### THE ANALOGY
@@ -23,7 +23,7 @@ WordPress Hook: Action
 `add_action('before_vegetable', 'my_custom_layer_before_vegetable');`
 
 `function  my_custom_layer_before_vegetable(){`
-      
+
       echo 'I am the pickles layer';
 
 `}`
@@ -33,15 +33,15 @@ Then you can add pickles and coriander before lettuce
 `add_action('before_vegetable', 'pickles_layer_before_vegetable', 1);`
 
 `function  pickles_layer_before_vegetable(){ `
-      
+
       echo 'I am the pickles layer';
 
 `}`
 
 `add_action('before_vegetable', 'coriander_layer_before_vegetable', 2);`
 
-`function  coriander_layer_before_vegetable(){` 
-      
+`function  coriander_layer_before_vegetable(){`
+
       echo 'I am the coriander layer';
 
 `}`
@@ -55,7 +55,7 @@ Nathan comes, Hi [Mike](https://github.com/kipmyk), I don’t want lettuce on my
 `add_filter('vegetable_filter', 'change_vegetable_filter' );`
 
 `function change_vegetable_filter( $default ){`
-      
+
       return 'I am the pickles layer';
 
 `}`
@@ -83,7 +83,7 @@ This is an example of how to delete images from the media library when they are 
 This is an example of how to use the acf image field as user avatar wordpress. Please make use that the return format of the image field is set to url.
 
 ##### 3. [acf-specific-term-location-rule.php](https://github.com/kipmyk/filters/blob/main/inc/filters/acf-specific-term-location-rule.php)
-This is an example of how to create a custom location rule to add fields to specific term. 
+This is an example of how to create a custom location rule to add fields to specific term.
 For more info on the same, please [read more here](http://www.advancedcustomfields.com/resources/custom-location-rules/).
 For those looking to do this and other custom rules here is some code for this specific case.
 
@@ -100,9 +100,5 @@ This is an example of how to update All ACF Post Fields. You can call this funct
 
 You can add the action and function, load the website once, and then comment it out so it doesn't load again.
 
-<<<<<<< HEAD
 ##### 7. [acf_is_admin-acf-location-rule.php](https://github.com/kipmyk/filters/blob/main/inc/filters/acf_is_admin-acf-location-rule.php)
-=======
-##### 7. [acf_is_admin-acf-location-rule.php](https://github.com/kipmyk/filters/inc/filters/acf_is_admin-acf-location-rule.php)
->>>>>>> 15cf713dc3ef3317274cf32b18d2e7a97317030b
 This is another custom location rule example. This rule lets you choose a field group to be used only in the in the admin or on a front end form.
